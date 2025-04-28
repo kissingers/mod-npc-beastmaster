@@ -1,0 +1,41 @@
+[worldserver]
+
+###################################################################################################
+#	BEASTMASTER NPC
+###################################################################################################
+
+# Enable only for the hunter class?
+
+BeastMaster.HunterOnly = 1
+
+# Required level to adopt pets. (default: 10, 0 = disable)
+
+BeastMaster.MinLevel = 10
+
+# Hunters are required to have Beast Mastery to adopt exotic pets. (default: 0)
+
+BeastMaster.HunterBeastMasteryRequired = 1
+
+# Allow exotic pets for non-hunters (default: 1)
+
+BeastMaster.AllowExotic = 0
+
+# Keep pet always happy (default: 0)
+
+BeastMaster.KeepPetHappy = 0
+
+# Normal pets
+
+BeastMaster.Pets="蝙蝠,10357,熊,12037,野猪,29996,豹,2175,食腐鸟,2931,螃蟹,18241,鳄鱼,1417,龙鹰,18155,猩猩,1559,猎犬,29452,鬣狗,5829,飞蛾,25498,虚空鳐,18285,猛禽,14343,迅猛龙,9684,掠食者,22123,蝎子,14476,蛇,28011,蜘蛛,12433,孢子蝠,18280,陆行鸟,22807,乌龟,14223,跃迁兽,23163,蜜蜂,18283,风蛇,5834,土狼,3825,郊狼,24128"
+
+# Exotic pets
+
+BeastMaster.ExoticPets="奇美拉,20932,熔岩犬,33502,魔暴龙,32485,犀牛,25487,异形虫,6582,蠕虫,30422,黄金虫,14477,灵魂熊,38453,灵魂虎,33776,灵魂豹,32517,灵魂狼,35189"
+
+# Rare pets
+
+BeastMaster.RarePets="火烈鸟,3068,断牙,2850,青龙,21123,白虎,731,朱雀,32481,玄武,8213"
+
+# Rare Exotic pets
+
+BeastMaster.RareExoticPets="北极熔岩犬,17447"
