@@ -46,7 +46,7 @@ public:
 
         void Reset() override
         {
-            events.ScheduleEvent(BEASTMASTER_EVENT_EAT, urand(30000, 90000));
+            events.ScheduleEvent(BEASTMASTER_EVENT_EAT, 30s, 90s);
         }
 
         void UpdateAI(uint32 diff) override
@@ -57,7 +57,7 @@ public:
             {
                 case BEASTMASTER_EVENT_EAT:
                     me->HandleEmoteCommand(EMOTE_ONESHOT_EAT_NO_SHEATHE);
-                    events.ScheduleEvent(BEASTMASTER_EVENT_EAT, urand(30000, 90000));
+                    events.ScheduleEvent(BEASTMASTER_EVENT_EAT, 30s, 90s);
                     break;
             }
         }
